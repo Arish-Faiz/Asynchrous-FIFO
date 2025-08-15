@@ -14,7 +14,6 @@ The design uses **Gray code pointers** to ensure safe synchronization between as
 - **Dual-clock asynchronous FIFO**
 - **Gray code pointer synchronization**
 - **Full and Empty flag logic**
-- Modular, synthesis-friendly architecture
 - Includes complete **Verilog RTL source code**
 
 ---
@@ -32,3 +31,12 @@ The design uses **Gray code pointers** to ensure safe synchronization between as
 | `sync_w2r.v`  | Write-to-Read clock domain synchronizer |
 | `rptr_empty.v`| Read pointer + empty flag logic |
 | `wptr_full.v` | Write pointer + full flag logic |
+
+
+---
+
+## 👨‍💻 Author
+**Arish Faiz**  
+Branch: **EE6 (ICS)**  
+Roll No: **23M1179**  
+**Indian Institute of Technology Bombay (IIT Bombay)**
