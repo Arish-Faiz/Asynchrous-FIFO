@@ -20,8 +20,6 @@ The design uses **Gray code pointers** to ensure safe synchronization between as
 
 ## 📂 Project Structure
 
----
-
 ## 🛠️ Design Modules
 | Module        | Description |
 |---------------|-------------|
