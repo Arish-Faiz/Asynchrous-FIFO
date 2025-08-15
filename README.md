@@ -1,4 +1,4 @@
-# 🌀 Asynchronous FIFO Design
+# 🌀 Asynchronous FIFO Design (Self Project)
 
 ![Verilog](https://img.shields.io/badge/HDL-Verilog-blue.svg)
 
