@@ -20,3 +20,15 @@ The design uses **Gray code pointers** to ensure safe synchronization between as
 ---
 
 ## 📂 Project Structure
+
+---
+
+## 🛠️ Design Modules
+| Module        | Description |
+|---------------|-------------|
+| `fifol.v`     | Top-level FIFO module |
+| `fifomem.v`   | Dual-port memory buffer |
+| `sync_r2w.v`  | Read-to-Write clock domain synchronizer |
+| `sync_w2r.v`  | Write-to-Read clock domain synchronizer |
+| `rptr_empty.v`| Read pointer + empty flag logic |
+| `wptr_full.v` | Write pointer + full flag logic |
