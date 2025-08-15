@@ -1,7 +1,6 @@
 # 🌀 Asynchronous FIFO Design
 
 ![Verilog](https://img.shields.io/badge/HDL-Verilog-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## 📜 Overview
 This repository contains the **design and implementation of an Asynchronous FIFO** in Verilog HDL, based on proven methodologies for reliable **Clock Domain Crossing (CDC)**.
@@ -29,6 +28,19 @@ The design uses **Gray code pointers** to ensure safe synchronization between as
 | `sync_w2r.v`  | Write-to-Read clock domain synchronizer |
 | `rptr_empty.v`| Read pointer + empty flag logic |
 | `wptr_full.v` | Write pointer + full flag logic |
+
+
+---
+
+## 🛠 Technologies Used
+- **RTL Design:** Verilog HDL  
+- **Verification:** Verilog Testbench, ModelSim/Vivado Simulator  
+
+
+---
+## 📖 Reference
+Based on methodology from:  
+> Clifford E. Cummings, *Simulation and Synthesis Techniques for Asynchronous FIFO Design*
 
 
 ---
