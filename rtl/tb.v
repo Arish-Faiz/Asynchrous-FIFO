@@ -46,16 +46,16 @@ fifol #(
 );
 
 // 4. Clock Generation (Asynchronous Clocks)
-// Write clock (e.g., 100 MHz)
+    // Write clock ( 125 MHz)
 initial begin
     wclk = 0;
-    forever #5 wclk = ~wclk;
+    forever #4 wclk = ~wclk;
 end
 
-// Read clock (e.g., 83.3 MHz)
+    // Read clock (25 MHz)
 initial begin
     rclk = 0;
-    forever #6 rclk = ~rclk;
+    forever #20 rclk = ~rclk;
 end
 
 // 5. Main Test Sequence
