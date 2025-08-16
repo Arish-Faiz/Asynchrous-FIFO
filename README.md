@@ -30,6 +30,23 @@ The design uses **Gray code pointers** to ensure safe synchronization between as
 | `wptr_full.v` | Write pointer + full flag logic |
 
 
+
+---
+
+## 🧪 Testbench Verification
+
+- **FIFO Depth**: 16  
+- **Write Clock (wclk)**: 125 MHz (8 ns period)  
+- **Read Clock (rclk)**: 25 MHz (40 ns period)  
+- **Burst Scenario**: Write a continuous burst of 20 words  
+
+**Observed Behavior in Simulation:**  
+- FIFO successfully accepts the first **16 words**  
+- The **wfull flag** asserts as expected   
+- ✅ No data corruption occurs
+
+
+
 ---
 
 ## 🛠 Technologies Used
